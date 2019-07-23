@@ -1,2 +1,2 @@
 # EDiary
-JavaFX multi-user dairy based digital record management system
+JavaFX multi-user diary based digital record management system
