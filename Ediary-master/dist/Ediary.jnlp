@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Ediary.jnlp">
+  <information>
+    <title>Ediary</title>
+    <vendor>perseus85</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Ediary.jar" size="254518" download="eager" />
+    <jar href="lib\kotlin-runtime.jar" size="878511" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.6-bin.jar" size="690484" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Ediary" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="e.diary.EDiary"  name="Ediary" />
+  <update check="always"/>
+</jnlp>
